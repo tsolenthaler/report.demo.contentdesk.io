@@ -24,10 +24,8 @@ APP_REGION = getenv('APP_REGION')
 def main():
     path = "/docs"
     projectPath = os.path.dirname(os.path.abspath(__file__))
-    
-    license = '["cc0","ccby","ccbysa"]'
 
-    contentdeskreport.ContentdeskOpenData(AKENEO_HOST, AKENEO_CLIENT_ID, AKENEO_CLIENT_SECRET, AKENEO_USERNAME, AKENEO_PASSWORD, CDN_URL, projectPath+path, APP_ORGANIZATION, APP_NAME, APP_WEBSITE, APP_ORGANIZATION_WEBSITE, APP_EMAIL, APP_REGION, license)
+    contentdeskreport.ContentdeskReport(AKENEO_HOST, AKENEO_CLIENT_ID, AKENEO_CLIENT_SECRET, AKENEO_USERNAME, AKENEO_PASSWORD, CDN_URL, projectPath+path, APP_ORGANIZATION, APP_NAME, APP_WEBSITE, APP_ORGANIZATION_WEBSITE, APP_EMAIL, APP_REGION)
 
 if __name__ == '__main__':
     main()
