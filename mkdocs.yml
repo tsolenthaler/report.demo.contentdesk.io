@@ -1,0 +1,54 @@
+# Project information
+site_name: Report Portal - Demo Tourismus
+site_url: https://report.demo.contentdesk.io
+
+# Repository
+repo_name: TSO-AG/report.demo.contentdesk.io
+repo_url: https://github.com/TSO-AG/report.demo.contentdesk.io/
+
+# Copyright
+copyright: Report Portal made with <a href="https://contentdesk.io">CONTENTDESK.IO</a>
+
+# Configuration
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon-180-180.png
+  icon:
+    repo: fontawesome/brands/git-alt
+  features:
+    - content.tabs.link
+    - content.code.copy
+  custom_dir: overrides
+
+extra_css:
+  - stylesheets/extra.css
+
+# Plugins
+plugins: []
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
