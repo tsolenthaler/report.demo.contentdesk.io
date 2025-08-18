@@ -3,8 +3,8 @@ site_name: Report Portal - Demo Tourismus
 site_url: https://report.demo.contentdesk.io
 
 # Repository
-repo_name: TSO-AG/report.demo.contentdesk.io
-repo_url: https://github.com/TSO-AG/report.demo.contentdesk.io/
+#repo_name: TSO-AG/report.demo.contentdesk.io
+#repo_url: https://github.com/TSO-AG/report.demo.contentdesk.io/
 
 # Copyright
 copyright: Report Portal made with <a href="https://contentdesk.io">CONTENTDESK.IO</a>
