@@ -1,6 +1,6 @@
 from os import getenv
 from dotenv import load_dotenv, find_dotenv
-import contentdeskreport.check.checkUrlExist as CheckUrlExist
+from contentdeskreport.check.checkUrlExist import CheckUrlExist
 import os
 
 load_dotenv(find_dotenv())
