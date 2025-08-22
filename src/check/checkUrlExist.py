@@ -22,10 +22,10 @@ APP_EMAIL = getenv('APP_EMAIL')
 APP_REGION = getenv('APP_REGION')
 
 def main():
-    path = "/docs"
+    path = "/api"
     projectPath = os.path.dirname(os.path.abspath(__file__))
 
-    CheckUrlExist(projectPath+path)
+    CheckUrlExist(projectPath)
 
 if __name__ == '__main__':
     main()
