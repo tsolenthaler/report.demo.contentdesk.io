@@ -25,7 +25,7 @@ def main():
     path = "/docs"
     projectPath = os.path.dirname(os.path.abspath(__file__))
 
-    checkUrlExist(projectPath+path)
+    CheckUrlExist(projectPath+path)
 
 if __name__ == '__main__':
     main()
