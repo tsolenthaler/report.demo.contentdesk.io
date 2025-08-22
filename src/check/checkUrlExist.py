@@ -23,7 +23,7 @@ APP_REGION = getenv('APP_REGION')
 
 def main():
     path = "/docs"
-    projectPath = os.path.dirname(os.path.abspath(__file__))
+    projectPath = os.path.abspath(os.sep)
 
     CheckUrlExist(projectPath+path)
 
