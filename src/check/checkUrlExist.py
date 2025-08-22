@@ -1,6 +1,6 @@
 from os import getenv
 from dotenv import load_dotenv, find_dotenv
-import contentdeskreport.check.checkUrlExist as checkUrlExist
+import contentdeskreport.check.checkUrlExist as CheckUrlExist
 import os
 
 load_dotenv(find_dotenv())
@@ -25,7 +25,7 @@ def main():
     path = "/docs"
     projectPath = os.path.dirname(os.path.abspath(__file__))
 
-    checkUrlExist.startCheck(projectPath+path)
+    checkUrlExist(projectPath+path)
 
 if __name__ == '__main__':
     main()
