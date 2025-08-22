@@ -22,7 +22,7 @@ APP_EMAIL = getenv('APP_EMAIL')
 APP_REGION = getenv('APP_REGION')
 
 def main():
-    path = "/docs"
+    path = "docs"
     projectPath = os.path.abspath(os.sep)
 
     CheckUrlExist(projectPath+path)
