@@ -66,5 +66,5 @@ jobs:
       - name: Install contentdeskreport
         run: pip install -i https://test.pypi.org/simple/ contentdeskreport
       - name: Run Python script
-        working-directory: ./src/check
+        #working-directory: ./src/check
         run: python checkUrlExist.py
