@@ -25,7 +25,7 @@ def main():
     path = "docs"
     projectPath = os.path.abspath(os.sep)
 
-    CheckUrlExist(projectPath+path)
+    CheckUrlExist(projectPath+path, APP_WEBSITE)
 
 if __name__ == '__main__':
     main()
