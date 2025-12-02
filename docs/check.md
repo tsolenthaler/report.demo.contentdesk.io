@@ -40,6 +40,13 @@ Schedule: täglich / wöchentlich
 
 --> Back Check von CheckExistMeetingRoom
 
+ ```mermaid
+flowchart LR
+    Place --> |MeetingRoom | MeetingRoom
+    MeetingRoom --> |containedInPlace| Place
+```
+
+
 ## Place
 
 ### CheckExistMeetingRoom
