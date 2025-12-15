@@ -2,6 +2,10 @@
 
 Liste aller möglichen Checks
 
+* Prüfe ob URL funktioniert --> CheckUrlValid
+* Prüfe ob CheckOpeningHoursSpecification ausgefüllt oder leer --> CheckOpeningHoursSpecificationExist
+* Prüft ob MeetingRooms mit Location via containedInPlace ist oder nicht --> CheckMeetingRoomExistAssociationContainedInPlace
+
 ## Allgemein
 
 ### CheckUrl
@@ -30,7 +34,7 @@ Schedule: manuell
 
 ## MeetingRooms
 
-### CheckExistcontainedInPlace
+### CheckMeetingRoomExistAssociationContainedInPlace
 
 Prüft beim Typ MeetingRoom ob beim Verbindungs-Typ "containedInPlace" ein Objekt gepflegt ist.
 
