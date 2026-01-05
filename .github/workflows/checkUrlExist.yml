@@ -1,10 +1,6 @@
 name: Check URL Exist
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master 
-      - main
 permissions:
   contents: write
 
