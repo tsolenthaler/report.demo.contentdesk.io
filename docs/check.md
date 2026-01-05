@@ -69,3 +69,9 @@ Voraussetzung / Basis für [CheckExistcontainedInPlace](#CheckExistcontainedInPl
 association-type: ```MeetingRoom```
 
 Schedule: täglich / wöchentlich
+
+
+
+## Product
+
+Angeobt ohne Preise eingabe (leer)
