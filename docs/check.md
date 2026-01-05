@@ -46,7 +46,7 @@ Schedule: täglich / wöchentlich
 
 ### CheckMeetingRoomWithoutAssociationContainedInPlace
 
-Prüft und listes alle MeetingRooms die kleine Verbindung zu einer Locations (Place) via Verbindungs-Typ "containedInPlace" haben.
+Prüft und listet alle MeetingRooms die kleine Verbindung zu einer Locations (Place) via Verbindungs-Typ "containedInPlace" haben.
 
 association-type: ```containedInPlace```
 
