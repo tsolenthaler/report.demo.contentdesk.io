@@ -11,3 +11,6 @@ src/command/api/*
 src/command/debug/*
 api/*
 debug/*
+docs/akeneo/products.json
+docs/history.json
+docs/history.md
